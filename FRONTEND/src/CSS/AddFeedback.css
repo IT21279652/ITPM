@@ -1,0 +1,19 @@
+.rating {
+    text-align: center;
+    font-size: 0;
+  }
+  
+  .star {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .star.selected {
+    color: #FFD700;
+  }
+  

@@ -1,0 +1,59 @@
+.myContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.feedbacks-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feedback-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(50% - 20px);
+}
+
+.feedback-details {
+    margin-bottom: 10px;
+}
+
+.feedback-actions {
+    display: flex;
+    justify-content: space-between; /* Change to space-between to separate edit and delete buttons */
+}
+
+.editBtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.deleteBtn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.editBtn:hover {
+    background-color: #0056b3;
+}
+
+.deleteBtn:hover {
+    background-color: #c82333;
+}
